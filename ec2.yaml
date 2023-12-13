@@ -24,11 +24,11 @@
     ansible_python_interpreter: /usr/bin/python3.10
     keypair: ubuntu
     instance_type: t2.micro
-    image_id: ami-053b0d53c279acc90
+    image_id:ami-0287a05f0ef0e9d9a
     wait: yes
     group: webserver
     count: 1
-    region: us-east-1
+    region: ap-south-1
     security_group: ec2-security-group
     tag_name:
       Name: Aj-ec2   
